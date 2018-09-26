@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	overflow-y: hidden;
+}
+.background{
+	position: relative;
+}
+.background .quotes p{
+	color: #2b2b2b;
+	font-size: 40px;
+	font-family: 'Patrick Hand SC', cursive
+}
+.background .quotes .line_1, .background .quotes .line_1_1, .background .quotes .line_2, .background .quotes .line_3{
+	position: absolute;
+	padding: 0.2em;
+}
+.background .quotes .line_1, .background .quotes .line_1_1{
+	font-weight: 900;
+	line-height: 200px;
+	font-family: 'Dancing Script', cursive;
+}
+.background .quotes .line_1{
+	font-size: 120px;
+	top: 0%;
+	left: 32%;
+}
+.background .quotes .line_1_1{
+	font-size: 100px;
+	top: 7%;
+	left: 37%;	
+}
+.background .quotes .line_2{
+	top: 23%;
+	left: 52%;
+	font-size: 30px;
+	font-weight: 200;
+	font-family: 'Pacifico', cursive;
+}
+.background .quotes .line_3{
+	top: 27%;
+	left: 33%;	
+	font-size: 40px;
+}
+.background .image {
+	width: 130%;
+	transform: translate(-100px, -80px);
+}
+.background .image img{
+	object-fit: cover;
+	transform: rotate(-5deg);
+	width: 100%;
+}
+.background .decorated_image{
+	position: absolute;
+	top: 11%;
+	left: 34%;
+	animation: 8s rotate_it infinite alternate-reverse;
+}
+@keyframes rotate_it {
+  0% {transform: translate(10px, 5px)}
+  100%{transform: translate(-10px, -5px)}
+}
+.background .decorated_image img{
+	width: 60%;	
+}
