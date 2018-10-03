@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kiss the rain</title>
+	<script src="lib/jquery.js"></script>
+	<script src="lib/x-gif.js"></script>
+	<link rel="stylesheet" href="lib/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheet/page2.css">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Dancing+Script|Gloria+Hallelujah|Great+Vibes|Indie+Flower|Marck+Script|Pacifico|Sacramento|Satisfy|Shadows+Into+Light|Yellowtail" rel="stylesheet">
+</head>
+<body>
+	
+	<img src="resources/crossing_street.gif" class="background">
+
+	<div>
+		<iframe src="https://s3-eu-west-1.amazonaws.com/neilbryson.net.random/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		<audio autoplay id="rainAudio">
+			<source src="resources/rainmood.mp3" type="audio/mpeg">
+		</audio>
+		<audio autoplay id="mainAudio">
+			<source src="resources/KissTheRain.wav" type="audio/wav">
+		</audio>
+	</div>
+
+	<div class="container">
+		<div class="wrapper DisplayFlex">
+			<div class="gif">
+				<img src="resources/crossing_street.gif">
+				<!-- <x-gif src="resources/crossing_street.gif"></x-gif> -->
+			</div>
+		</div>
+	</div>
+	
+	<div class="quotes">
+		<p class="line_1">The rain falling</p>
+		<p class="line_2">reminds me of you</p>
+		<p class="line_3">Because it's falling hard,</p>
+		<p class="line_4">... and so am I.</p>
+	</div>
+
+	<script src="lib/script.js"></script>
+			
+</body>
+</html>

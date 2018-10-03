@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	overflow: hidden;
+}
+.DisplayFlex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper{
+	min-height: 1000px;
+	min-width: 1000px;
+}
+img.background{
+	width: 100%;
+	transform: translateY(-500px);
+}
+.wrapper .gif{
+	position: absolute;
+	width: 50%;
+	top: -5%;
+}
+.wrapper .gif img, .wrapper .gif x-gif{
+	width: 100%;
+}
+.quotes p{
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	padding:10px;
+	/* font-family: 'Satisfy', cursive; */
+	/* font-family: 'Yellowtail', cursive; */
+	/* font-family: 'Sacramento', cursive; */
+	/* font-family: 'Caveat', cursive; */
+	/* font-family: 'Dancing Script', cursive; */
+	/* font-family: 'Gloria Hallelujah', cursive; */
+	/* font-family: 'Great Vibes', cursive; */
+	font-family: 'Indie Flower', cursive;
+	/* font-family: 'Marck Script', cursive; */
+	/* font-family: 'Pacifico', cursive; */
+}
+.quotes .line_1{
+	position: absolute;
+	top: 1%;
+	left: 36%;
+	font-weight: 900;
+	font-size: 50px;
+	letter-spacing: 5px;
+	font-family: 'Marck Script', cursive;
+}
+.quotes .line_2{
+	position: absolute;
+	top: 12%;
+	left: 44%;
+	font-size: 15px;
+	letter-spacing: 5px;
+	font-family: 'Shadows Into Light', cursive;
+}
+.quotes .line_3{
+	position: absolute;
+	top: 20%;
+	left: 37%;
+	letter-spacing: 5px;
+}
+.quotes .line_4{
+	position: absolute;
+	top: 25%;
+	left: 48%;
+	letter-spacing: 5px;
+}
