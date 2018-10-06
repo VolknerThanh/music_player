@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	overflow: hidden;
+}
+.background{
+	width: 100%;
+	transform: translateY(-200px);
+}
+.background img{
+	width: 100%;
+	object-fit: cover;
+}
+#audio{
+	display: none;
+}
